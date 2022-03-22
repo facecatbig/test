@@ -1,0 +1,5 @@
+				if (this.timer) clearTimeout(this.timer);
+				this.timer = setTimeout(() => {
+					this.clearStatus();
+					this.getDeviceList();
+				}, 1000);
